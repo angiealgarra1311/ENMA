@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.container{
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+ 
+}
+
+header{
+
+    width: 100%;
+    height: 600px;
+    background: hsl(0, 0%, 99%);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, hsl(2, 100%, 94%), hsl(0, 0%, 100%));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, hsl(3, 100%, 96%), hsl(0, 0%, 100%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+.container-inicio{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-container{
+    width: 48%;
+}
+
+.container-texto{
+    width: 48%;
+    padding: 40px 50px 0px 50px;
+    text-align: justify;
+}
+
+
+nav>a{
+    color: rgb(255, 8, 193);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav>a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(110, 46, 107);
+    font-size: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: rgb(107, 100, 102);
+    margin: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+h4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(80, 49, 78);
+}
+
+img{
+    margin: 20px;
+}
+
+p{
+    font-size: 1,25em;
+    text-align: justify;
+    margin: 20px;
+}
+
+
+#Inicio-enma{
+    background: hsl(0, 0%, 99%);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, hsl(2, 100%, 94%), hsl(0, 0%, 100%));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, hsl(3, 100%, 96%), hsl(0, 0%, 100%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: center center;
+    height: max-content;
+    padding: auto;
+    background-size: cover;
+}
+
+#Inicio-enma.container{
+    height: 100%;
+    width: 100%;
+}
+
+#Comprar-enma{
+    background: hsl(0, 0%, 99%);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, hsl(2, 100%, 94%), hsl(0, 0%, 100%));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, hsl(3, 100%, 96%), hsl(0, 0%, 100%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: center center;
+    height: max-content;
+    padding: auto;
+    background-size: cover;
+}
+
+.contenedor-columnas{
+    width: 100%;
+    margin: auto;
+}
+
+.columnasx3{
+    width: 33.333%;
+    float: left;
+}
+
+
+
+#Nosotros-enma{
+    background: hsl(0, 0%, 99%);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, hsl(2, 100%, 94%), hsl(0, 0%, 100%));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, hsl(3, 100%, 96%), hsl(0, 0%, 100%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 50px 50px 50px 50px;
+    text-align: justify;
+}
+
+#Contacto-enma{
+    background: hsl(0, 0%, 99%);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, hsl(2, 100%, 94%), hsl(0, 0%, 100%));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, hsl(3, 100%, 96%), hsl(0, 0%, 100%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    justify-content: space-evenly;
+}
+
+.container-contacto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+}
+
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+}
+
+.button{
+    height: 50px;
+    width: 40px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #fff;
+}
